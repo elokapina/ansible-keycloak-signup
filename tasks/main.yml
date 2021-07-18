@@ -23,4 +23,10 @@
       KEYCLOAK_REALM: "{{ keycloak_signup_keycloak_realm }}"
       KEYCLOAK_USERNAME: "{{ keycloak_signup_keycloak_username }}"
       KEYCLOAK_SIGNUP_SECRET_TOKEN: "{{ keycloak_signup_secret_token }}"
+      KEYCLOAK_SIGNUP_SUCCESS_REDIRECT: "{{ keycloak_signup_success_redirect }}"
+      KEYCLOAK_SIGNUP_TITLE: "{{ keycloak_signup_title }}"
+      KEYCLOAK_SIGNUP_WELCOME_TEXT: "{{ keycloak_signup_welcome_text }}"
+      KEYCLOAK_SIGNUP_STYLE_HERO_BACKGROUND_COLOR: "{{ keycloak_signup_style_hero_background_color }}"
+      KEYCLOAK_SIGNUP_STYLE_PAGE_BACKGROUND_COLOR: "{{ keycloak_signup_style_page_background_color }}"
+      KEYCLOAK_SIGNUP_STYLE_PRIMARY_BUTTON_BACKGROUND_COLOR: "{{ keycloak_signup_style_primary_button_background_color }}"
 

@@ -31,7 +31,6 @@ keycloak_signup_keycloak_username:
 ## API
 ## Secret used to authenticate with the API for creating new pages for example
 keycloak_signup_secret_token:
-
 ```
 
 ### Optional
@@ -51,6 +50,19 @@ keycloak_signup_database_port: "5432"
 keycloak_signup_database_user: keycloak_signup
 ## Keycloak
 keycloak_signup_keycloak_client_id: admin-cli
+
+## Title and welcome text
+keycloak_signup_title: "Keycloak Signup"
+keycloak_signup_welcome_text: "Sign up for a Keycloak account"
+
+## App functionality and appearance
+## Page to redirect to after successful signup
+keycloak_signup_success_redirect:
+
+## App styling
+keycloak_signup_style_hero_background_color:
+keycloak_signup_style_page_background_color:
+keycloak_signup_style_primary_button_background_color:
 ```
 
 ## License
