@@ -21,8 +21,13 @@ keycloak_signup_database_host:
 ## Keycloak
 ## Admin API url. Should be the full url and end with `/auth`
 keycloak_signup_keycloak_base_url: https://your.keycloak.domain/auth
-## Admin password
+## Grant type
+## This must be either "password" or "client_credentials"
+keycloak_signup_keycloak_grant_type: password | client_credentials
+## Admin password (required if grant type password)
 keycloak_signup_keycloak_password:
+## Admin client secret (required if grant type client_credentials)
+keycloak_signup_keycloak_client_secret:
 ## Realm to manage users for - not the admin realm, that is assumed to be 'master'
 keycloak_signup_keycloak_realm:
 ## Admin user username in the 'master' realm
