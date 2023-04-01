@@ -14,7 +14,7 @@
     env:
       DATABASE_NAME: "{{ keycloak_signup_database_name }}"
       DATABASE_PASSWORD: "{{ keycloak_signup_database_password }}"
-      DATABASE_PORT: "{{ keycloak_signup_database_port }}"
+      DATABASE_PORT: "{{ keycloak_signup_database_port | string }}"
       DATABASE_USER: "{{ keycloak_signup_database_user }}"
       DATABASE_HOST: "{{ keycloak_signup_database_host }}"
       KEYCLOAK_BASE_URL: "{{ keycloak_signup_keycloak_base_url }}"
